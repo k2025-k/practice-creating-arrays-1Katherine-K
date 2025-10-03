@@ -16,7 +16,7 @@ console.log(groceryList);
 console.log(groceryPrice);
 let item;
 for (let i = 2 ; i < groceryList.length;i++) {//Output the starting at element 3 until end of array
-    console.log(groceryList[i]);
+    console.log(groceryList[i]); //More easily could have done at below with just indexing
     }
 console.log(groceryPrice[0]); //Output specifc element at index 0 in array groceryPrice
 console.log(groceryPrice[1]);//Output specifc element at index 1 in array groceryPrice
